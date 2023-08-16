@@ -21,19 +21,20 @@ import MenuItem from "./MenuItem.vue";
     background-color: #352A2C;
     width: 300px;
     color: white;
-    height: 100vh;
+    height: 200vh;
     padding-top: 20px;
 }
 
-/*.profile img {
-    border-radius: 50%;
-    min-width: 50px;
-    max-width: 300px;
-    width: 100%;
-}*/
 .menu-items ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
+@media (max-width: 400px) {
+    .menu {
+        width: auto;
+    }   
+}
+
 </style>

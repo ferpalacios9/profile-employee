@@ -2,6 +2,9 @@
     <div class="card">
         <div class="image-profile">
             <img :src="require('@/assets/img/' + profile.image)" alt="">
+            <div class="pen-icon">
+                <font-awesome-icon :icon="['fas', 'pen-to-square']" />
+            </div>
         </div>
         <h4 class="name">{{ profile.name }}</h4>
         <div class="info">
@@ -41,6 +44,8 @@ const { profile } = MenuItems;
 .card {
     width: 300px;
     border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card h4 {
@@ -52,6 +57,16 @@ const { profile } = MenuItems;
     display: flex;
     justify-content: center;
     margin: 16px 0;
+}
+
+.pen-icon {
+    position: absolute;
+    right: 45px;
+    color: rgb(214, 214, 214);
+}
+
+.pen-icon:hover {
+    cursor: pointer;
 }
 
 .card img {
@@ -71,4 +86,11 @@ const { profile } = MenuItems;
 
 .info p {
     margin-bottom: 10px;
-}</style>
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 200px;
+    }   
+}
+</style>

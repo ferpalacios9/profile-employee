@@ -38,4 +38,15 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 800px) {
+    .title {
+        display: none;
+    }
+
+    .item {
+        justify-content: center;
+    }
+}
+
 </style>

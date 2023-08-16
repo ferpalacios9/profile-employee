@@ -26,11 +26,17 @@ import ShipmentCard from './ShipmentCard.vue';
     margin: 0 30px;
 }
 
+.header {
+    margin-bottom: 30px;
+}
+
 .header h1 {
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
     font-size: 24px;
     margin: 0;
     font-weight: 600;
+    border-bottom: 1px solid rgb(226, 225, 225);
 }
 
 .panel {

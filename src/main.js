@@ -13,6 +13,7 @@ import {
     faGear,
     faCircleCheck,
     faClock,
+    faPenToSquare,
 } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
@@ -21,5 +22,6 @@ library.add(faUsers)
 library.add(faGear)
 library.add(faCircleCheck)
 library.add(faClock)
+library.add(faPenToSquare)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
