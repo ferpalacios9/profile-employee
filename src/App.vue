@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="app-container">
+    <MenuOptions />
+    <ProfilePanel />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MenuOptions from './components/MenuOptions.vue';
+import ProfilePanel from './components/ProfilePanel.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MenuOptions,
+    ProfilePanel,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background-color: #FAFAFC;
+}
+
+.app-container {
+  display: flex;
 }
 </style>
