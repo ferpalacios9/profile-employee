@@ -1,7 +1,7 @@
 <template>
     <div class="profile-container">
         <div class="header">
-            <h1>Truck Driver Profile</h1>
+            <h1>Employee Profile</h1>
         </div>
         <div class="panel">
             <div class="profile-driver">

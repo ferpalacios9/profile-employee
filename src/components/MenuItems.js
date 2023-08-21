@@ -2,7 +2,7 @@ export default {
     profile: {
         image: "profile.jpg",
         name: "John Smith",
-        company: "Amazon",
+        role: "Delivery Driver",
         yexperience: "3",
         mexperience: "11",
         birthdate: "08 / 15 / 1990",

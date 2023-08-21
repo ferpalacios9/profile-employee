@@ -10,8 +10,8 @@
         <div class="info">
             <ul>
                 <li>
-                    <span>Company</span>
-                    <p>{{ profile.company }}</p>
+                    <span>Role</span>
+                    <p>{{ profile.role }}</p>
                 </li>
                 <li>
                     <span>Experience</span>
