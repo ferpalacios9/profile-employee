@@ -21,7 +21,7 @@ import MenuItem from "./MenuItem.vue";
     background-color: #352A2C;
     width: 300px;
     color: white;
-    height: 250vh;
+    height: 180vh;
     padding-top: 20px;
 }
 
