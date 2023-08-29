@@ -34,6 +34,7 @@ import MenuItem from "./MenuItem.vue";
 @media (max-width: 400px) {
     .menu {
         width: auto;
+        background-color: #FAFAFC;
     }   
 }
 

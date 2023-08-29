@@ -49,4 +49,12 @@ a:hover {
     }
 }
 
+@media (max-width: 400px) {
+    .item .icon {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+}
 </style>
