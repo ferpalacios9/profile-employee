@@ -50,4 +50,11 @@ import ShipmentCard from './ShipmentCard.vue';
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media (max-width: 450px) {
+    .profile-container {
+        margin: 0 10px;
+    }   
+}
+
 </style>
